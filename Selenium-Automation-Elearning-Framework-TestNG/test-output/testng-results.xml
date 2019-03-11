@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41632" started-at="2019-03-11T05:45:15Z" finished-at="2019-03-11T05:45:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41632" started-at="2019-03-11T05:45:15Z" finished-at="2019-03-11T05:45:56Z">
+      <class name="com.training.sanity.tests.RETC_011Tests">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_011Tests@47c62251]" name="setUpBeforeClass" is-config="true" duration-ms="18" started-at="2019-03-11T05:45:15Z" finished-at="2019-03-11T05:45:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_011Tests@47c62251]" name="setUp" is-config="true" duration-ms="30898" started-at="2019-03-11T05:45:15Z" finished-at="2019-03-11T05:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RETC_011Tests@47c62251]" name="validLoginTest" duration-ms="8776" started-at="2019-03-11T05:45:46Z" finished-at="2019-03-11T05:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_011Tests@47c62251]" name="tearDown" is-config="true" duration-ms="1907" started-at="2019-03-11T05:45:54Z" finished-at="2019-03-11T05:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.RETC_011Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
