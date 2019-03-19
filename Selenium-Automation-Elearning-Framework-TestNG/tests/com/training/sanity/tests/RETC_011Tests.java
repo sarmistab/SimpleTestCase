@@ -20,6 +20,7 @@ import com.training.utility.DriverNames;
 public class RETC_011Tests {
 
 	private WebDriver driver;
+	private WebDriver second_driver;
 	private String baseUrl;
 	private RETC_011POM loginPOM;
 	private static Properties properties;
@@ -38,6 +39,7 @@ public class RETC_011Tests {
 		loginPOM = new RETC_011POM(driver); 
 		baseUrl = properties.getProperty("baseURL");
 		screenShot = new ScreenShot(driver); 
+	
 		// open the browser 
 		driver.get(baseUrl);
 	}

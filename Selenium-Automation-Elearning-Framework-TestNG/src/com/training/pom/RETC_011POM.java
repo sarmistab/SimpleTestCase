@@ -13,7 +13,7 @@ public class RETC_011POM {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(id="user_login")
+	@FindBy(name="log")
 	private WebElement userName; 
 	
 	@FindBy(id="user_pass")
