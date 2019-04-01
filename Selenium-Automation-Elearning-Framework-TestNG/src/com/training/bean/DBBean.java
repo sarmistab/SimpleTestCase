@@ -13,14 +13,15 @@ public class DBBean {
 	
 	public DBBean(){}
 	
-	public DBBean(String url, String driver, String userName, String password) {
+	public DBBean(String url, String driver, String userName, String email, String text, String message, String password) {
 		super();
 		this.url = url;
 		this.driver = driver;
 		this.userName = userName;
 		this.password = password;
+		
 	}
-
+		
 	public String getUrl() {
 		return url;
 	}
@@ -52,6 +53,7 @@ public class DBBean {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
 	
 	
 	

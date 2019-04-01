@@ -66,13 +66,13 @@ public class RETC_015Tests {
 	}
 	@Test
 	public void validLogoutTest() {
-		String actualURL=driver.getCurrentUrl();
 		//mouse over admin link
 		Actions action = new Actions(driver);
 		WebElement admin = driver.findElement(By.partialLinkText("Howd"));
 		action.moveToElement(admin).build().perform(); 
 		// click logout
 		logoutPOM.clickLogout();
+		String actualURL=driver.getCurrentUrl();
 		String expectedURL="http://realestate.upskills.in/wp-admin/";
 		assertEquals(actualURL, expectedURL);
 		screenShot.captureScreenShot("RETC_015_Logout");

@@ -1,29 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="85594" started-at="2019-03-19T09:35:42Z" finished-at="2019-03-19T09:37:08Z">
+  <suite name="Default suite" duration-ms="167660" started-at="2019-04-01T05:33:44Z" finished-at="2019-04-01T05:36:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="85594" started-at="2019-03-19T09:35:42Z" finished-at="2019-03-19T09:37:08Z">
-      <class name="com.training.sanity.tests.RETC_041Tests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_041Tests@6f7fd0e6]" name="setUp" is-config="true" duration-ms="52092" started-at="2019-03-19T09:35:42Z" finished-at="2019-03-19T09:36:34Z">
+    <test name="Default test" duration-ms="167660" started-at="2019-04-01T05:33:44Z" finished-at="2019-04-01T05:36:32Z">
+      <class name="com.training.sanity.tests.RETC_071Tests">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="setUpBeforeClass" is-config="true" duration-ms="24" started-at="2019-04-01T05:33:44Z" finished-at="2019-04-01T05:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="setUp" is-config="true" duration-ms="26423" started-at="2019-04-01T05:33:45Z" finished-at="2019-04-01T05:34:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validBlogTest()[pri:1, instance:com.training.sanity.tests.RETC_041Tests@6f7fd0e6]" name="validBlogTest" duration-ms="9101" started-at="2019-03-19T09:36:34Z" finished-at="2019-03-19T09:36:43Z">
+        <test-method status="PASS" signature="contactFormPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="contactFormPageTest" duration-ms="30480" started-at="2019-04-01T05:34:11Z" data-provider="excel-inputs" finished-at="2019-04-01T05:34:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Coco]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[coco@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[apartments]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[looking for an apartments]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validBlogTest -->
-        <test-method status="PASS" signature="validLoginTest()[pri:2, instance:com.training.sanity.tests.RETC_041Tests@6f7fd0e6]" name="validLoginTest" duration-ms="22710" started-at="2019-03-19T09:36:43Z" finished-at="2019-03-19T09:37:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_041Tests@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="1667" started-at="2019-03-19T09:37:06Z" finished-at="2019-03-19T09:37:08Z">
+        </test-method> <!-- contactFormPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1665" started-at="2019-04-01T05:34:42Z" finished-at="2019-04-01T05:34:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RETC_041Tests -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="setUp" is-config="true" duration-ms="20796" started-at="2019-04-01T05:34:44Z" finished-at="2019-04-01T05:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactFormPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="contactFormPageTest" duration-ms="30802" started-at="2019-04-01T05:35:04Z" data-provider="excel-inputs" finished-at="2019-04-01T05:35:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sam@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[plots]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[looking for an plots]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactFormPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1678" started-at="2019-04-01T05:35:35Z" finished-at="2019-04-01T05:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="setUp" is-config="true" duration-ms="19101" started-at="2019-04-01T05:35:37Z" finished-at="2019-04-01T05:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactFormPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="contactFormPageTest" duration-ms="34188" started-at="2019-04-01T05:35:56Z" data-provider="excel-inputs" finished-at="2019-04-01T05:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sia@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vilas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[looking for an vila]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactFormPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1675" started-at="2019-04-01T05:36:30Z" finished-at="2019-04-01T05:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.RETC_071Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
