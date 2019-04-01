@@ -14,5 +14,7 @@ message varchar (50)
 info varchar (50));
 
 
-insert into Form values("Coco","alex@gmail.com", "plots", "looking for an apartments");
+insert into Form values("Alex","alex@gmail.com", "plots", "looking for an apartments");
+insert into Form values("Sam","sam@gmail.com", "villas", "looking for an apartments");
+
 

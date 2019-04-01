@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="167660" started-at="2019-04-01T05:33:44Z" finished-at="2019-04-01T05:36:32Z">
+  <suite name="Default suite" duration-ms="97506" started-at="2019-04-01T06:50:20Z" finished-at="2019-04-01T06:51:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="167660" started-at="2019-04-01T05:33:44Z" finished-at="2019-04-01T05:36:32Z">
-      <class name="com.training.sanity.tests.RETC_071Tests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="setUpBeforeClass" is-config="true" duration-ms="24" started-at="2019-04-01T05:33:44Z" finished-at="2019-04-01T05:33:44Z">
+    <test name="Default test" duration-ms="97506" started-at="2019-04-01T06:50:20Z" finished-at="2019-04-01T06:51:57Z">
+      <class name="com.training.sanity.tests.RETC_073Tests">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_073Tests@3e6fa38a]" name="setUpBeforeClass" is-config="true" duration-ms="14" started-at="2019-04-01T06:50:20Z" finished-at="2019-04-01T06:50:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="setUp" is-config="true" duration-ms="26423" started-at="2019-04-01T05:33:45Z" finished-at="2019-04-01T05:34:11Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_073Tests@3e6fa38a]" name="setUp" is-config="true" duration-ms="19980" started-at="2019-04-01T06:50:20Z" finished-at="2019-04-01T06:50:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="contactFormPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="contactFormPageTest" duration-ms="30480" started-at="2019-04-01T05:34:11Z" data-provider="excel-inputs" finished-at="2019-04-01T05:34:42Z">
+        <test-method status="PASS" signature="contactFormPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RETC_073Tests@3e6fa38a]" name="contactFormPageTest" duration-ms="27418" started-at="2019-04-01T06:50:40Z" data-provider="db-inputs" finished-at="2019-04-01T06:51:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Coco]]>
+                <![CDATA[alex]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[coco@gmail.com]]>
+                <![CDATA[alex@gmail.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[apartments]]>
+                <![CDATA[plots]]>
               </value>
             </param>
             <param index="3">
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactFormPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1665" started-at="2019-04-01T05:34:42Z" finished-at="2019-04-01T05:34:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_073Tests@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1702" started-at="2019-04-01T06:51:07Z" finished-at="2019-04-01T06:51:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="setUp" is-config="true" duration-ms="20796" started-at="2019-04-01T05:34:44Z" finished-at="2019-04-01T05:35:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_073Tests@3e6fa38a]" name="setUp" is-config="true" duration-ms="18936" started-at="2019-04-01T06:51:09Z" finished-at="2019-04-01T06:51:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="contactFormPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="contactFormPageTest" duration-ms="30802" started-at="2019-04-01T05:35:04Z" data-provider="excel-inputs" finished-at="2019-04-01T05:35:35Z">
+        <test-method status="PASS" signature="contactFormPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RETC_073Tests@3e6fa38a]" name="contactFormPageTest" duration-ms="27436" started-at="2019-04-01T06:51:28Z" data-provider="db-inputs" finished-at="2019-04-01T06:51:55Z">
           <params>
             <param index="0">
               <value>
@@ -63,57 +63,23 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[plots]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[looking for an plots]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactFormPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1678" started-at="2019-04-01T05:35:35Z" finished-at="2019-04-01T05:35:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="setUp" is-config="true" duration-ms="19101" started-at="2019-04-01T05:35:37Z" finished-at="2019-04-01T05:35:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="contactFormPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="contactFormPageTest" duration-ms="34188" started-at="2019-04-01T05:35:56Z" data-provider="excel-inputs" finished-at="2019-04-01T05:36:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sia@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
                 <![CDATA[vilas]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[looking for an vila]]>
+                <![CDATA[looking for vilas]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactFormPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_071Tests@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1675" started-at="2019-04-01T05:36:30Z" finished-at="2019-04-01T05:36:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_073Tests@3e6fa38a]" name="tearDown" is-config="true" duration-ms="1732" started-at="2019-04-01T06:51:55Z" finished-at="2019-04-01T06:51:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.RETC_071Tests -->
+      </class> <!-- com.training.sanity.tests.RETC_073Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

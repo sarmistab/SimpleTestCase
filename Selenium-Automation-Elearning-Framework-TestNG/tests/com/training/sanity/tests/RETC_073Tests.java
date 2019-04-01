@@ -55,7 +55,7 @@ public class RETC_073Tests {
 		//Click on Featured image
 		formPagePOM.clickFeaturedImg();
 		//Fetch data from db
-		formPagePOM.sendYourName(message);
+		formPagePOM.sendYourName(username);
 		formPagePOM.sendeMailID(email);
 		formPagePOM.sendMessage(message); 
 		Thread.sleep(1000);
